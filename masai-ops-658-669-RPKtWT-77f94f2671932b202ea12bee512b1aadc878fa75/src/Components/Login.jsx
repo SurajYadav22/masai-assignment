@@ -51,7 +51,7 @@ export default function Login() {
           onChange={handleChange}
         />
         <br />
-        <input className="submit" type="submit" onClick={handleSubmit} />
+        <button onClick={handleSubmit}>Submit</button>
       </form>
       <h3 className="error-container">{error}</h3>
     </div>
